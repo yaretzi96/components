@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+/* Color palete
+
+#3B6836-dark green
+
+#38962A-middlegreen
+
+#34B52D-green
+
+#60BA2C-light green
+
+#99D378-lightlightgreen
+
+#C9E440-yellowgreen
+
+#D4E966-yellowyellowgreen
+
+*/
+
+*, *:before, *:after {
+
+  box-sizing: inherit;
+
+}
+
+
+
+html{
+
+  font-size: 62.5%;
+
+}
+
+
+
+body{
+
+  background:#60BA2C ;
+
+  font-size: 2rem;
+
+  font-family: 'Libre Baskerville', serif;
+
+  margin: 0;
+
+}
+
+
+
+
+
+
+
+header,footer{
+
+  background: #38962A;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.background{
+
+ background-image:linear-gradient(rgba(3, 75, 15, 0.404), transparent),
+
+ url(https://yaretzi96.github.io/destination/projects2/images/puertoescondido1.jpg);
+
+
+
+  background-repeat: no-repeat;
+
+  background-position: top top;
+
+  background-attachment: fixed;
+
+  background-size:cover;
+
+  color: whitesmoke;
+
+  padding:100px 100px;
+
+
+
+}
+
+h1{
+
+   background-color:#3B6836;
+
+   color:rgb(243, 238, 232);
+
+   font-size: 200;
+
+   border-radius: 15px;
+
+   text-align: center;
+
+
+
+}
+
+
+
+.title{
+
+  text-align: center;
+
+  font-size: 3rem;
+
+  background-color: transparent;
+
+  margin-top: 0;
+
+}
+
+.intro{
+
+  text-align: left;
+
+  padding: 10px;
+
+
+
+}
+
+
+
+.destination{
+
+  text-align: center;
+
+}
+
+
+
+.must-see{
+
+  background-color:#3B6836;
+
+  color:rgb(243, 238, 232);
+
+  border-radius: 15px;
+
+ }
+
+
+
+
+
+.flex-container {
+
+  background-color:#38962A;
+
+  color:rgb(243, 238, 232);
+
+  display:flex;
+
+  justify-content: space-around;
+
+  padding:10px;
+
+  margin: 10px;
+
+  border-radius: 15px;
+
+}
+
+
+
+.flex-item {
+
+padding: 10px;
+
+width: 20%;
+
+color: #C9E440;
+
+display: initial;
+
+}
+
+.flex-item2 {
+
+  display: initial;
+
+  color: black;
+
+  background: lightgreen;
+
+
+
+}
+
+
+
+
+
+.reco{
+
+  background:#99D378;
+
+  border-radius: 15px;
+
+  padding: 10px;
+
+  margin-top: 25px;
+
+}
+
+
+
+.image-center {
+
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+
+
+
+
+h2{
+
+  background: #3B6836;
+
+  padding-left: 10px;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+}
+
+
+
+footer{
+
+  width: 80%;
+
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+}
+
+footer p{
+
+  color: white;
+
+  font-size: 1rem;
+
+  border-radius: 15px;
+
+  text-align: center;
+
+}
+
+
+
+.fab{
+
+  display:flex;
+
+  font-size: inherit;
+
+  height: .5em;
+
+  width: .5em;
+
+  overflow: visible;
+
+  text-rendering: auto;
+
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 950px) {
+
+    body {
+
+      background: rgb(153, 211, 120);
+
+      font: #C9E440;
+
+      font-size: 1.8rem;
+
+    }
+
+
+
+}
+
+nav{
+
+  font-size: 1.6rem;
+
+}
+
+
+
+article {
+
+  width: 80%;
+
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+}
